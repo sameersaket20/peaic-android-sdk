@@ -1,0 +1,28 @@
+# Gradle
+.gradle/
+**/build/
+
+# Local Android configuration
+local.properties
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+
+# macOS
+.DS_Store
+
+# Android build artifacts
+/captures/
+.externalNativeBuild/
+.cxx/
+
+# Signing keys
+*.jks
+*.keystore
+*.p12
+
+# Environment files and secrets
+.env
+.env.*
+secrets.properties
